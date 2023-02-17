@@ -10,6 +10,9 @@ https://drive.google.com/drive/folders/1BQWa2-bdjZ_OdMBaVmTlzBRBKNlH_sGr?usp=sha
 B3: Thiết lập code trong phần mềm Aduino IDE để nạp cho ESP32
 - Mở phần mềm Aduino IDE, thêm các thư viện đã đề cập ở B2 và thêm 2 thư viện DHT library from Adafruit và Adafruit Unified Sensor library có sẵn trong mục thư viện online của phần mềm
 - Copy paste code (có 3 hệ thống nhỏ tương ứng vs 3 source code)
+- Chỉnh sửa code:
++ Thay đổi tên mạng wifi và mật khẩu wifi mà bạn sử dụng trong phần "Khai báo thông tin mạng wifi sử dụng"
++ Thay đổi địa chỉ ip của MQTTbroker của bạn vào trong phần "Khai báo thông tin mqtt broker"
 - Build code và nạp code vào ESP32
 B4: Lập trình trên phần mềm Node red
 - Import source code sau: 
